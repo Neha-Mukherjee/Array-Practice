@@ -9,13 +9,13 @@ public class CountElements {
         int negative = 0;
 
         for (int num : arr) {
-
+        //if number divides by 2 its even else odd
             if (num % 2 == 0) {
                 even++;
             } else {
                 odd++;
             }
-
+        // if number is greater than 0 then positive else negative
             if (num > 0) {
                 positive++;
             } else if (num < 0) {

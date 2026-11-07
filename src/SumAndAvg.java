@@ -17,7 +17,10 @@ public class SumAndAvg {
             sum += arr[i];
 
         }
+        //sum is int double is used so that the decimal part is presrved
+        //else for eg 5/2 is 2.5 but with not no doublt with sum it will be 2.0 (TypeCasting
         double avg =(double) sum / arr.length;
         return new double[]{sum,avg};
     }
 }
+/* */
