@@ -27,3 +27,14 @@ public class LeaderElements {
     }
 
 }
+/*
+* an element is called leader if all the elements to its right are smaller than it
+* we start from the last element because it will always be the leader
+* movin from right to left we compare the current element at  with the max if its greater than the element is added to the list
+* we reverse the list as we collected from right to left
+* [1 2 3 4 ] = [4 3 2 1]
+* time complexity = O(n)
+* space complexity O(n) for output list
+*
+*
+* */

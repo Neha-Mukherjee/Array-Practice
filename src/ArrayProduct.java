@@ -30,3 +30,9 @@ public class ArrayProduct {
         return result;
     }
 }
+/* the first loop calculates all the elements tot its left and store it in result array
+* starting from 2nd element so there will be elements to it's left
+* the second loop calculates the elements to the right starting from last element
+* the result of the left array are then multiplies with the right product one by one
+* then right product is updated so it contains the product of all elements to the right */
+

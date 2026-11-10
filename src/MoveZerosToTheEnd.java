@@ -25,3 +25,13 @@ public class MoveZerosToTheEnd {
         }
     }
 
+/*
+* move all zeros to the end of the array while maintaining the original order of non zero elements
+* i decides where to place the elements
+* j traverses the entire array and finds non zero elements
+* whenever j is finding a non zero elements it copies the element to position i
+* then increments i to prepare for next non zero element
+* first loop only moves non zero elements to the beginning but it does not remove the old values left behind
+* so a secong loop is used that fills the remaning positions with zeros
+*
+* */

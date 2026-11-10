@@ -34,3 +34,12 @@ public class RotateArray {
         }
     }
 }
+/*
+* a normal reversal which reverses the entire array is performed using temp variable in teh first call
+* this bring last k elements to the beginning but their order is reversed
+* then in second method call only first k elements are reversed to restore the order
+* in third call we reversing the remaining elements to restore teh order
+* time complexity - O(n)
+* space complexity - O(1)
+* we reverse array 3 times but each reversal takes up linear time
+* */

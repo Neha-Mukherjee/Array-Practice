@@ -25,3 +25,10 @@ public class ReverseArrayInPlace {
         }
     }
 }
+/*
+* i starts at first index
+* j starts at last index
+* temp stores value temporarily while swappin
+* time complexity - O(n)
+* space complexity O(1)
+* */
