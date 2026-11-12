@@ -40,7 +40,7 @@ public class MaximumProductSubarray {
 * result stores the max product found anywhere in the array
 * both min and max product are used because of negative numbers
 * tempmax and tempmin are calculated using maxproduct and minprodcut values
-* temp variables used so updations doesnt affect the calculation of one another
+* temp variables used so updations doesn't affect the calculation of one another
 *  result is initialised with nums[0] because initially we have processed only the first element.
- It also handles arrays containing only negative numbers.
+* It also handles arrays containing only negative numbers.
 * */
