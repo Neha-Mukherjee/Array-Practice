@@ -51,3 +51,9 @@ public class NextPermutation {
         System.out.println(Arrays.toString(nums));
     }
 }
+
+/*
+the question ask to rearrange the given numbers to create the next bigger arrangement possible
+we cannot remove or add anything
+bigger arrangement is when the permutated numbers together like 132>123 
+ */
